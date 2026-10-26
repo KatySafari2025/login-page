@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <script src="../Bootstrap/js/bootstrap.min.js" ></script>
+    <!-- <script src="https://kit.fontawesome.com/a32ba54e00.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body class="bg-dark text-light">
+    <div class="container min-vh-100 d-flex justify-content-center align-items-center text-center">
+        <form action="" class="border rounded-4 p-4 shadow">
+            <legend class="fw-bold text-primary">Login</legend>
+            <label for="phone" class="form-label d-block text-start fw-bold">Phone Number:</label>
+            <input class="form-control rounded-pill mb-2" type="tel" placeholder="071-234-5678" id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required />
+            <label for="password" class="form-label d-block text-start fw-bold">Password:</label>
+            <input class="form-control  rounded-pill mb-2" type="password" placeholder="Enter your password" id="password" required />
+            <p class="mb-2">Forgot password?<a href="">Click here</a></p>
+            <button class="btn btn-info mb-2" type="submit">Sign in</button>
+            <p>Don't have an account yet?<a class="th">register for free</a></p>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
